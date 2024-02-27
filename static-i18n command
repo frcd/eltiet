@@ -1,3 +1,4 @@
 static-i18n ./ -i cat -i es -i fr -i en -o docs  --files index.html
 
 # attention derriere il faut modif l'emplacement de l'index cat, et mettre le lien >cat en actif dessus (petit bug, pas le temps)
+# refuse de me faire l'anglais. par contre renommé en enggg oui. donc cut to the chase
