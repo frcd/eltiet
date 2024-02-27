@@ -13,7 +13,7 @@
                     "name": "Red gambas risotto"
                 },
                 "pulpo": {
-                    "desc": "100 gr. Grilled Octopussy with celeri cream and cassis caramel.",
+                    "desc": "200 gr. Grilled Octopussy with celeri cream and cassis caramel.",
                     "name": "Grilled Octopussy"
                 },
                 "rodaballo": {
@@ -121,7 +121,7 @@
                 },
                 "salad": {
                     "desc": "potatos, hard boiled eggs, tuna belly, olives, \"pimiento del piquillo\" peppers, mayonnaise and picos (bread).",
-                    "name": "Russian Salad"
+                    "name": "Russian Salad (In summer only)"
                 },
                 "sardina": {
                     "desc": "On toasted pan de coca (flat bread), onion and fennel sauté, rucula and cherry tomatoes.",
@@ -130,7 +130,7 @@
             },
             "title": "Tapas"
         },
-        "text": "El Tiet also makes a daily lunch formula during week days, including bread drink and desert, at 12,50.",
+        "text": "El Tiet also makes a daily lunch formula during week days, including bread drink and desert, at 13,50.",
         "text2": "Or check today's menu on ",
         "title": "Our Menu"
     },

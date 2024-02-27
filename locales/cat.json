@@ -1,33 +1,33 @@
 {
     "menu": {
-        "call-text-alt": "Llamanos para conocer el menu del dia",
-        "callus": "Llamanos",
+        "call-text-alt": "Truca'ns per conèixer el menú del dia",
+        "callus": "Truca'ns",
         "fish": {
             "i": {
-                "bacalao": {
-                    "desc": "\"Taco\" de bacalao desalado en su punto, confitado y acompañado con un cremoso de patata y aceite de sobrasada.Opción vegetariana: cambia el aceite de sobrasada por un aceite de frutos secos.",
-                    "name": "Bacalao confitado"
+                "bacallà": {
+                    "desc": "\"Taco\" de bacallà dessalat al seu punt, confitat i acompanyat amb un cremós de patata i oli de sobrassada.Opció vegetariana: cambia l'oli de sobrassada per un oli de fruits secs.",
+                    "name": "Bacallà confitat"
                 },
                 "gamba": {
                     "desc": "",
-                    "name": "Risotto de gamba roja"
+                    "name": "Risotto de gamba vermella"
                 },
                 "pulpo": {
-                    "desc": "100 gr. de pulpo a la parrilla con cremoso de celeri y caramelo de cassis.",
-                    "name": "Pulpo a la parrilla"
+                    "desc": "200 gr. de pop a la graella amb patata i carmel de cassis.",
+                    "name": "Pop a la graella"
                 },
-                "rodaballo": {
+                "bacalao": {
                     "desc": "Guisado de rodaballo con patatas, \"moixernons\" y picada catalana.",
                     "name": "\"Fricandó\" de rodaballo"
                 },
                 "tallarines": {
-                    "desc": "Tiras de calamar salteadas con ajo y cebollino acompañadas con un huevo frito.",
+                    "desc": "Tires de calamar saltejades amb all i cibulet amb ou ferrat.",
                     "name": "Tallarines de calamar"
                 }
             },
-            "title": "Pescados"
+            "title": "Peixos"
         },
-        "ig-text-alt": "Mira el menu del dia en el Instagram de El Tiet Taver Teca",
+        "ig-text-alt": "Consulta el menú del dia al Instagram de El Tiet Taver Teca",
         "meat": {
             "i": {
                 "foie": {
@@ -35,104 +35,104 @@
                     "name": "Foie poele"
                 },
                 "pibil": {
-                    "desc": "Carne de cerdo marinada y cocida lentamente al horno, con cebolla roja, cilantro y lima. Todo acompañado con salsa “tatomada” (verduras a la parrilla) y pan de pita crujiente.",
+                    "desc": "Carne de cerdo marinada y cocida lentamente al horno, con cebolla roja, cilantro y lima. Todo acompanyat amb salsa “tatomada” (verduras a la parrilla) y pan de pita crujiente.",
                     "name": "Cochinita Pibil"
                 },
                 "rubia": {
-                    "desc": "200 gr. de ternera Rubia Gallega madurada 37 días a la parrilla. Acompañada de parmentier y champiñones salteados.",
+                    "desc": "200 gr. de vedella Rubia Gallega madurada 37 dies, a la graella. Acompanyada amb parmentier i xampinyons.",
                     "name": "Rubia Gallega"
                 },
                 "tartare": {
-                    "desc": "100gr. de carne de ternera picada a mano, acompañado con tostaditas y chips de patata.",
+                    "desc": "100gr. de carn de vedella, amb torradetes i xips de patata.",
                     "name": "Steak Tartare"
                 },
                 "trubia": {
-                    "desc": "150gr. de Rubia Gallega cortada a mano para tartar y acompañada con chips y tostaditas.",
+                    "desc": "200gr. de vedella Rubia Gallega, amb torradetes i xips .",
                     "name": "Steak Tartare de Rubia Gallega"
                 }
             },
-            "title": "Carnes"
+            "title": "Carns"
         },
         "pica": {
             "i": {
                 "anchoa": {
-                    "desc": "Unidad",
-                    "name": "Anchoas del Cantábrico con pan con tomate"
+                    "desc": "Unitat",
+                    "name": "Anxoves del Cantàbric amb pa amb tomàquet"
                 },
                 "bravas": {
-                    "desc": "Patata agria cortada a dados acompañadas con nuestras salsas.",
-                    "name": "Bravas \"El Tiet\""
+                    "desc": "Patata agria tallada a daus acompanyades amb les nostres salses.",
+                    "name": "Braves \"El Tiet\""
                 },
                 "burrata": {
-                    "desc": "Opción vegetariana: sin jamón.",
-                    "name": "Burrata con aceite de tomate seco, jamón ibérico y frutos secos"
+                    "desc": "Opció vegetariana: sense pernil.",
+                    "name": "Burrata amb oli de tomàquet sec, pernil ibèric i fruitos secs"
                 },
                 "cecina": {
-                    "desc": "Con virutas de queso Parmesano",
+                    "desc": "Amb encenalls de Parmesà",
                     "name": "Cecina de León"
                 },
                 "croc": {
-                    "desc": "Unidad",
-                    "name": "Croqueta casera de cocido"
+                    "desc": "Unitat",
+                    "name": "Croqueta casolana de rostit"
                 },
                 "crocdia": {
-                    "desc": "Unidad",
+                    "desc": "Unitat",
                     "name": "Croqueta del dia"
                 },
                 "fritura": {
-                    "desc": "Preguntanos",
+                    "desc": "Pregunta'ns",
                     "name": "Fritura del dia"
                 },
                 "hueda": {
-                    "desc": "Con sobrasada ibérica.",
-                    "name": "Huevo parmentier"
+                    "desc": "Amb sobrassada ibérica.",
+                    "name": "Ou parmentier"
                 },
                 "huefoie": {
                     "desc": "Con foie fresco a la plancha.",
                     "name": "Huevo parmentier con foie"
                 },
                 "huego": {
-                    "desc": "Con queso manchego.",
-                    "name": "Huevo parmentier"
+                    "desc": "Amb formatge manxec.",
+                    "name": "Ou parmentier"
                 },
                 "huemium": {
-                    "desc": "Con jamón ibérico y aceite de trufa.",
-                    "name": "Huevo parmentier Premium"
+                    "desc": "Amb pernil ibèric i oli de tòfona.",
+                    "name": "Ou parmentier Premium"
                 },
                 "huemon": {
-                    "desc": "Con Jamón Ibérico.",
-                    "name": "Huevo parmentier"
+                    "desc": "Amb Jamón Ibérico.",
+                    "name": "Ou parmentier"
                 },
                 "hummus": {
-                    "desc": "El papadum es una chip elaborada con harina de garbanzo.",
-                    "name": "Hummus con papadum"
+                    "desc": "El papadum és una xip elaborada amb farina de cigró.",
+                    "name": "Hummus amb papadum"
                 },
                 "jamon": {
-                    "desc": "50 gr. de jamón iberico con pan con tomate.",
-                    "name": "Jamón Ibérico con pan con tomate"
+                    "desc": "50 gr. de pernil ibèric amb pa amb tomàquet.",
+                    "name": "Pernil ibèric amb pa de vidre amb tomàquet"
                 },
                 "pollo": {
-                    "desc": "Tiras de pollo a la andaluza con polvo de kiko y nuestra salsa barbacoa.",
-                    "name": "Tiras de pollo con salsa BBQ casera"
+                    "desc": "Tires de pollastre fregides amb pols de fruits secs i salsa sweet chilly.",
+                    "name": "Tires de pollastre amb salsa Sweet Chilly"
                 },
                 "provoleta": {
-                    "desc": "Al horno con fondant de puerro, bacon y chimichurri",
+                    "desc": "Al forn amb fondant de porro, bacó i ximixurri",
                     "name": "Provoleta"
                 },
                 "salad": {
-                    "desc": "Patata, huevo duro, ventresca de atún, aceitunas, pimiento del piquillo, mayonesa y picos.",
-                    "name": "Ensaladilla Rusa"
+                    "desc": "Patata, ou dur, ventresca de tonyina, olives, pebrot del piquillo, mayonesa i picos.",
+                    "name": "Amanida Rusa. Disponible a l'estiu"
                 },
                 "sardina": {
-                    "desc": "Pan de coca tostado con sofrito de cebolla e hinojo, rúcula y tomate cherry.",
-                    "name": "Coca de sardina ahumada"
+                    "desc": "Pa de coca torrat amb sofregit de ceba i fonoll, rucca i tomàquet cherry.",
+                    "name": "Coca de sardina fumada"
                 }
             },
-            "title": "Para picar"
+            "title": "Per picar"
         },
-        "text": "El Tiet tambien propone un menu de mediodia entre semana, con pan bebida y postre, por 12,50.",
-        "text2": "o consultalo por nuestro",
-        "title": "Nuestra Carta"
+        "text": "El Tiet també proposa d'un menu de dimarts a divendres, amb pa, beguda i postre inclòs, por 13,50.",
+        "text2": "o consulta'l pel nostre",
+        "title": "La Nostra Carta"
     },
     "nav": {
         "menu": {
@@ -140,47 +140,47 @@
             "text-link": "Carta"
         },
         "reserve": {
-            "text-alt": "Reservar en El Tiet",
+            "text-alt": "Reservar a El Tiet",
             "text-link": "Reservar"
         },
         "social": {
-            "text-alt": "Unete al Instagram/Facebook de El Tiet",
-            "text-link": "Siguenos"
+            "text-alt": "Unèix-te a l'Instagram/Facebook de El Tiet",
+            "text-link": "Segueix-nos"
         },
         "story": {
-            "text-alt": "Conoce a El Tiet, su cocinero y su historia",
+            "text-alt": "Conèix El Tiet, el seu cuiner i la seva història",
             "text-link": "El Tiet ?"
         },
         "top": {
-            "text-alt": "vuelve al inicio, photos, ubicuacion y contacto de El Tiet",
+            "text-alt": "torna a l'inici, fotogràfies, ubicuació i contacto de El Tiet",
             "text-link": ""
         }
     },
     "page": {
-        "call-alt-text": "Llamar El Tiet para reservar tu mesa o cualquier duda.",
+        "call-alt-text": "Truca o envia un WhatsApp a El Tiet per reservar la teva taula o qualsevol dubte.",
         "city": "Barcelona",
-        "email-alt-text": "Contacta a El Tiet Taver Teca por email.",
+        "email-alt-text": "Contacta a El Tiet Taver Teca per email.",
         "lang": "es",
         "lang-links": "<a aria-label=\"El Tiet en catala\"  href=\"/\">CAT</a> - <a class=\"active\" aria-label=\"El Tiet en español\" href=\"./\">ESP</a> - <a aria-label=\"El Tiet in inglish\" href=\"/en/\">EN</a> - <a aria-label=\"El Tiet en français\" href=\"/fr/\">FR</a>",
         "logo": {
             "text-alt": "logo El Tiet Taver teca"
         },
-        "map-text-alt": "Plan Google maps para ubicuar o llegar a El Tiet",
-        "metadesc": "Taverna gastronomica del eixample de Barcelona, con comida casera y creativa. Tambien takeaway (para llevar) y delivery (a domicilio)",
-        "modalities": "Restaurante - Takeaway",
-        "opendays": "Martes-Sabado",
-        "opendays2": "Viernes y Sabado",
-        "reviews": "reseñas",
-        "reviews-alt-text": "Ver reseñas del restaurante El Tiet en Google",
-        "till": "hasta",
-        "title": "El Tiet Taver Teca - Taverna Gastronomica en Barcelona",
-        "welcome": "Bienvenido a El Tiet!",
-        "welcome-sub": "Taverna gastronomica"
+        "map-text-alt": "Plan Google maps per ubicar-nos i arribar a El Tiet",
+        "metadesc": "Taverna gastronomica de l'eixample de Barcelona, amb menjar casola i creatiu. També takeaway (per a emportar)",
+        "modalities": "Restaurant - Takeaway",
+        "opendays": "Dimarts-Dissabte",
+        "opendays2": "Dimarts i dissabte",
+        "reviews": "resenyes",
+        "reviews-alt-text": "Veure resenyes del restaurant El Tiet a Google",
+        "till": "fins",
+        "title": "El Tiet Taver Teca - Taverna Gastronòmica a Barcelona",
+        "welcome": "Bienvingut a El Tiet!",
+        "welcome-sub": "Taverna gastronòmica"
     },
     "sections": {
         "press": {
-            "link-text-alt": "Leer este articulo sobre El Tiet",
-            "title": "Hablan de nosotros"
+            "link-text-alt": "Llegeix aquest article sobre El Tiet",
+            "title": "Parlen de nosaltres"
         },
         "reserve": {
             "text": "",
@@ -188,17 +188,17 @@
             "title": "Reservar"
         },
         "social": {
-            "FBbutton-text-ale": "Abre el Facebook de El Tiet Taver Teca para seguirnos",
-            "IGbutton-text-alt": "Abre el Instagram de El Tiet Taver Teca para seguirnos",
-            "text": "Ne te pierdes fotos de nuestros platos con trucos de la receta, concursos, noticias importantes y el menu del dia. El Tiet siempre contigo !",
-            "title": "Sigue El Tiet !"
+            "FBbutton-text-ale": "Obre el Facebook de El Tiet Taver Teca per seguir-nos",
+            "IGbutton-text-alt": "Obre l'Instagram de El Tiet Taver Teca para seguir-nos",
+            "text": "No et perdis les fotos dels nostres plats, trucs per a receptes, concursos, notícies importants i el menu del dia. El Tiet sempre amb tú!",
+            "title": "Segueix-nos !"
         },
         "story": {
-            "text": "<p>El Tiet sale de la mente de Ivan, nuestro chef (pero chhh, que no le gusta que le llamemos chef).</p> </p>Un lugar con el espiritu convivial, caloroso y desenfadado de una taverna, donde se puede disfrutar y descubrir platos y tapas tradicionales con un toque creativo, refinado, gastronomico, y sobre todo siempre hecho con cariño !</p><p>Solo o bien acompañado, sean lo que sean tus ganas del momento : tomar una caña con bravas, una fideua, un cochinillo o te sientes atravecido probar un pulpo con mermelada,sea tapas o plato, tradicional o creativo, comillon o pica pica, carne, pescado o verduras, el Tiet taver teca te da la bienvenida y de servira lo que pides,siempre hecho con cariño y gran respeto a los ingredientes, la gastronomia y a los amantes de buena comida.</p>",
-            "title": "Conoce a El Tiet"
+            "text": "<p>El Tiet surt de la ment d'Ivan, el nostre xef (però cshhh, que no li agrada que li diguin xef).</p> </p>Un lloc amb l'esprit convivial, caluròs i desenfadat d'una taverna, on és pot gaudir i descobrir plats i tapes tradicionals amb un toc creatiu, refinat, gastronòmic, i sobre tot sempre fet amb carinyo !</p><p>Sol o ben acompanyat, depenent les ganes del moment : pendre una canya amb braves, una fideuà, un garrinet o si et troves valent tastar un pop amb carmel,sigui tapes o plats, tradicional o creatiu, golafre o pica pica, carn, peix o verdures, el Tiet taver teca et dona la benvinguda i et servirà el que vulguis, sempre amb amor i un gran respecte als ingredients, la gastronomia i als amants de la bona teca.</p>",
+            "title": "Conèix El Tiet"
         },
         "theend": {
-            "text": "Buen provecho !"
+            "text": "Bon profit !"
         }
     }
 }

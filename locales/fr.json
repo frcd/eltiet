@@ -13,7 +13,7 @@
                     "name": "Risotto de gambas rouges"
                 },
                 "pulpo": {
-                    "desc": "100 gr. de poulpe au grill avec crême de celeri et caramel de cassis.",
+                    "desc": "200 gr. de poulpe au grill avec crême de celeri et caramel de cassis.",
                     "name": "Poulpe grillé"
                 },
                 "rodaballo": {
@@ -121,7 +121,7 @@
                 },
                 "salad": {
                     "desc": "Pommes de terre, oeufs durs, ventrèche de thon, olives, petits poivrons \"pimiento del piquillo\", mayonnaise et picos (pain).",
-                    "name": "Salade Russe"
+                    "name": "Salade Russe (Uniquement en été)"
                 },
                 "sardina": {
                     "desc": "Sur pain de coca (fougasse) toastés, avec sofrito d'oignon et fenouil, rucula et tomate cherry.",
@@ -130,7 +130,7 @@
             },
             "title": "Tapas"
         },
-        "text": "El Tiet propose également un menu du jour le midi en semaine, pain boisson et dessert inclus, pour 12,50.",
+        "text": "El Tiet propose également un menu du jour le midi en semaine, pain boisson et dessert inclus, pour 13,50.",
         "text2": "ou consultez le menu du jour sur notre ",
         "title": "Notre Carte"
     },

@@ -13,7 +13,7 @@
                     "name": "Risotto de gamba roja"
                 },
                 "pulpo": {
-                    "desc": "100 gr. de pulpo a la parrilla con cremoso de celeri y caramelo de cassis.",
+                    "desc": "200 gr. de pulpo a la parrilla con cremoso de celeri y caramelo de cassis.",
                     "name": "Pulpo a la parrilla"
                 },
                 "rodaballo": {
@@ -121,7 +121,7 @@
                 },
                 "salad": {
                     "desc": "Patata, huevo duro, ventresca de atún, aceitunas, pimiento del piquillo, mayonesa y picos.",
-                    "name": "Ensaladilla Rusa"
+                    "name": "Ensaladilla Rusa (Solo en verano)"
                 },
                 "sardina": {
                     "desc": "Pan de coca tostado con sofrito de cebolla e hinojo, rúcula y tomate cherry.",
@@ -130,7 +130,7 @@
             },
             "title": "Para picar"
         },
-        "text": "El Tiet tambien propone un menu de mediodia entre semana, con pan bebida y postre, por 12,50.",
+        "text": "El Tiet tambien propone un menu de mediodia entre semana, con pan bebida y postre, por 13,50.",
         "text2": "o consultalo por nuestro",
         "title": "Nuestra Carta"
     },
