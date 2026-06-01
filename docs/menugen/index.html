@@ -357,12 +357,12 @@
     <div class="brand">
       <img src="logo_eltiet_white_minified.svg" alt="El Tiet">
       <h1>¡Menú generado!</h1>
-      <p>La imagen se ha descargado automáticamente</p>
+      <p>Descarga la imagen o súbela a Instagram</p>
     </div>
     <img id="preview-img" alt="Vista previa del menú">
     <div class="actions">
       <button class="btn" id="ig-share" type="button" hidden>Subir a Instagram</button>
-      <button class="btn ghost" id="dl-again" type="button">Descargar otra vez</button>
+      <button class="btn" id="dl-again" type="button">Descargar imagen</button>
       <a class="btn ghost" href="./">Crear otro menú</a>
     </div>
   </section>
@@ -499,8 +499,9 @@
           canvas.toBlob((blob) => { pngBlob = blob; cb(blob); }, "image/png");
         };
 
+        // No auto-download: the user chooses download or share from the result
+        // screen (plus "Crear otro menú" to go back).
         const download = () => withBlob((blob) => window.saveAs(blob, fileName));
-        download();
         document.getElementById('dl-again').addEventListener('click', download);
 
         // Native share — mobile + tablet only. Opens the OS share sheet with the
@@ -519,6 +520,8 @@
           }
           if (!canShareFiles) return;
           shareBtn.hidden = false;
+          // Share is now the hero action; demote download to secondary styling.
+          document.getElementById('dl-again').classList.add('ghost');
           shareBtn.addEventListener('click', async () => {
             try {
               await navigator.share({
