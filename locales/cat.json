@@ -160,21 +160,21 @@
         "call-alt-text": "Truca o envia un WhatsApp a El Tiet per reservar la teva taula o qualsevol dubte.",
         "city": "Barcelona",
         "email-alt-text": "Contacta a El Tiet Taver Teca per email.",
-        "lang": "es",
+        "lang": "ca",
         "lang-links": "<a aria-label=\"El Tiet en catala\"  class=\"active\" href=\"/\">CAT</a> - <a  aria-label=\"El Tiet en español\" href=\"/es/\">ESP</a> - <a aria-label=\"El Tiet in inglish\" href=\"/en/\">EN</a> - <a aria-label=\"El Tiet en français\" href=\"/fr/\">FR</a>",
         "logo": {
             "text-alt": "logo El Tiet Taver teca"
         },
         "map-text-alt": "Plan Google maps per ubicar-nos i arribar a El Tiet",
-        "metadesc": "Taverna gastronomica de l'eixample de Barcelona, amb menjar casola i creatiu. També takeaway (per a emportar)",
+        "metadesc": "Taverna gastronòmica a Còrsega 382, l'Eixample, a prop de Verdaguer i Diagonal. Cuina casolana i creativa de l'Iván, braves famoses i guanyadors del Joc de Cartes de TV3.",
         "modalities": "Restaurant - Takeaway",
         "opendays": "Dimarts-Dissabte",
         "opendays2": "Dimarts i dissabte",
-        "reviews": "resenyes",
+        "reviews": "ressenyes",
         "reviews-alt-text": "Veure resenyes del restaurant El Tiet a Google",
         "till": "fins",
-        "title": "El Tiet Taver Teca - Taverna Gastronòmica a Barcelona",
-        "welcome": "Bienvingut a El Tiet!",
+        "title": "El Tiet · Taverna gastronòmica a l'Eixample, Barcelona · Braves i tapes",
+        "welcome": "Benvingut a El Tiet!",
         "welcome-sub": "Taverna gastronòmica"
     },
     "sections": {

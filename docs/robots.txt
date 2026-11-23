@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /menugen/
+
+Sitemap: https://eltiettaverteca.com/sitemap.xml
