@@ -171,6 +171,7 @@
         "opendays": "Tuesday-Saturday",
         "opendays2": "Friday Saturday",
         "reviews": "reviews",
+        "reviews-google": "Our Google reviews",
         "reviews-alt-text": "See google reviews for El Tiet",
         "till": "till",
         "title": "El Tiet · Tapas & gastronomic tavern in Eixample, Barcelona",
@@ -178,6 +179,25 @@
         "welcome-sub": "Gastronomic Tavern"
     },
     "sections": {
+        "photos": {
+        "title": "Our dishes",
+        "braves": "El Tiet's patatas bravas with our own sauces",
+        "risotto": "Red prawn risotto",
+        "rubia": "Aged Galician beef from the grill",
+        "suquet": "Catalan fish stew, suquet",
+        "croquetes": "Homemade roast croquettes",
+        "burrata": "Burrata with Iberian ham and dried tomato oil",
+        "tartar": "Steak tartare",
+        "sala": "El Tiet's dining room in Eixample"
+    },
+        "more": {
+        "dia": "Daily lunch menu (in Spanish)",
+        "dia-url": "/es/menu-del-dia/",
+        "grups": "Group menus (in Spanish)",
+        "grups-url": "/es/menus-de-grupo/",
+        "braves": "Our patatas bravas",
+        "braves-url": "/en/patatas-bravas/"
+    },
         "press": {
             "link-text-alt": "Lire cet article sur El Tiet",
             "title": "They are talking about us"

@@ -171,6 +171,7 @@
         "opendays": "Martes-Sabado",
         "opendays2": "Viernes y Sabado",
         "reviews": "reseñas",
+        "reviews-google": "Nuestras reseñas en Google",
         "reviews-alt-text": "Ver reseñas del restaurante El Tiet en Google",
         "till": "hasta",
         "title": "El Tiet · Taberna gastronómica en el Eixample, Barcelona · Bravas y tapas",
@@ -178,6 +179,25 @@
         "welcome-sub": "Taberna gastronómica"
     },
     "sections": {
+        "photos": {
+        "title": "Nuestros platos",
+        "braves": "Bravas de El Tiet, patata agria en dados con nuestras salsas",
+        "risotto": "Risotto con fumet de gamba roja",
+        "rubia": "Ternera gallega madurada a la brasa",
+        "suquet": "Suquet de pescado",
+        "croquetes": "Croquetas caseras de asado",
+        "burrata": "Burrata con jamón ibérico y aceite de tomate seco",
+        "tartar": "Steak tartar",
+        "sala": "El comedor de El Tiet, en el Eixample"
+    },
+        "more": {
+        "dia": "Menú del día",
+        "dia-url": "/es/menu-del-dia/",
+        "grups": "Menús de grupo",
+        "grups-url": "/es/menus-de-grupo/",
+        "braves": "Las bravas",
+        "braves-url": "/es/bravas/"
+    },
         "press": {
             "link-text-alt": "Leer este articulo sobre El Tiet",
             "title": "Hablan de nosotros"

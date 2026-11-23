@@ -77,4 +77,25 @@
               hreflang="es"
               href="https://eltiettaverteca.com/es/"/>
   </url>  
+  <url>
+    <loc>https://eltiettaverteca.com/braves/</loc>
+  </url>
+  <url>
+    <loc>https://eltiettaverteca.com/es/bravas/</loc>
+  </url>
+  <url>
+    <loc>https://eltiettaverteca.com/en/patatas-bravas/</loc>
+  </url>
+  <url>
+    <loc>https://eltiettaverteca.com/menu-del-dia/</loc>
+  </url>
+  <url>
+    <loc>https://eltiettaverteca.com/es/menu-del-dia/</loc>
+  </url>
+  <url>
+    <loc>https://eltiettaverteca.com/menus-de-grup/</loc>
+  </url>
+  <url>
+    <loc>https://eltiettaverteca.com/es/menus-de-grupo/</loc>
+  </url>
 </urlset>

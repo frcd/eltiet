@@ -101,6 +101,7 @@
 }
   </script>
 
+  <meta property="og:image" content="https://eltiettaverteca.com/assets/img/plats/braves-el-tiet-barcelona.jpg">
   <meta name="google-site-verification" content="gddnuttRzDVqe2bInYJK5n8-yxluAbYVIAuoxN46qBA">
 
   <script defer src="https://kit.fontawesome.com/6b6c40cd1a.js" crossorigin="anonymous"></script>
@@ -518,6 +519,22 @@
         font-size: 1.6em;
       }
     }
+    #plats .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: .5em
+    }
+
+    #plats .gallery img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 4px
+    }
+
+    #plats .more {
+      margin-top: 1em
+    }
   </style>
 
 </head>
@@ -547,9 +564,7 @@
           <div class="text">
             <h1>Benvingut a El Tiet!</h1>
             <p>Taverna gastronòmica</p>
-            <p class="reviews">4,5 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-              <a target="_blank" rel="noopener" class="discreet" href="https://g.co/kgs/s7Y23S" aria-label="Veure resenyes del restaurant El Tiet a Google">728 <span>ressenyes</span> <i class="fas fa-external-link-alt"></i></a>
-            </p>
+            <p class="reviews"><a target="_blank" rel="noopener" class="discreet" href="https://g.co/kgs/s7Y23S" aria-label="Veure resenyes del restaurant El Tiet a Google"><i class="fas fa-star"></i> <span>Les nostres ressenyes a Google</span> <i class="fas fa-external-link-alt"></i></a></p>
           </div>
         </div>
 
@@ -857,6 +872,21 @@
       </div>
 
 
+    </section>
+
+    <section id="plats">
+      <h2><i class="fas fa-camera"></i> <span>Els nostres plats</span></h2>
+      <div class="gallery">
+        <img loading="lazy" src="/assets/img/plats/braves-el-tiet-barcelona.jpg" alt="Braves d'El Tiet, patata agria a daus amb les nostres salses">
+        <img loading="lazy" src="/assets/img/plats/risotto-gamba-vermella-el-tiet.jpg" alt="Risotto amb fumet de gamba vermella">
+        <img loading="lazy" src="/assets/img/plats/rubia-gallega-graella-el-tiet.jpg" alt="Vedella gallega madurada a la graella">
+        <img loading="lazy" src="/assets/img/plats/suquet-de-peix-el-tiet.jpg" alt="Suquet de peix">
+        <img loading="lazy" src="/assets/img/plats/croquetes-casolanes-el-tiet.jpg" alt="Croquetes casolanes de rostit">
+        <img loading="lazy" src="/assets/img/plats/burrata-pernil-iberic-el-tiet.jpg" alt="Burrata amb pernil ibèric i oli de tomàquet sec">
+        <img loading="lazy" src="/assets/img/plats/steak-tartar-el-tiet.jpg" alt="Steak tartar">
+        <img loading="lazy" src="/assets/img/plats/sala-restaurant-el-tiet-eixample.jpg" alt="La sala d'El Tiet, a l'Eixample">
+      </div>
+      <p class="more"><a href="/menu-del-dia/">Menú del dia</a> · <a href="/menus-de-grup/">Menús de grup</a> · <a href="/braves/">Les braves</a></p>
     </section>
 
     <section id="story">

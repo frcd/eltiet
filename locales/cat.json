@@ -171,6 +171,7 @@
         "opendays": "Dimarts-Dissabte",
         "opendays2": "Dimarts i dissabte",
         "reviews": "ressenyes",
+        "reviews-google": "Les nostres ressenyes a Google",
         "reviews-alt-text": "Veure resenyes del restaurant El Tiet a Google",
         "till": "fins",
         "title": "El Tiet · Taverna gastronòmica a l'Eixample, Barcelona · Braves i tapes",
@@ -178,6 +179,25 @@
         "welcome-sub": "Taverna gastronòmica"
     },
     "sections": {
+        "photos": {
+        "title": "Els nostres plats",
+        "braves": "Braves d'El Tiet, patata agria a daus amb les nostres salses",
+        "risotto": "Risotto amb fumet de gamba vermella",
+        "rubia": "Vedella gallega madurada a la graella",
+        "suquet": "Suquet de peix",
+        "croquetes": "Croquetes casolanes de rostit",
+        "burrata": "Burrata amb pernil ibèric i oli de tomàquet sec",
+        "tartar": "Steak tartar",
+        "sala": "La sala d'El Tiet, a l'Eixample"
+    },
+        "more": {
+        "dia": "Menú del dia",
+        "dia-url": "/menu-del-dia/",
+        "grups": "Menús de grup",
+        "grups-url": "/menus-de-grup/",
+        "braves": "Les braves",
+        "braves-url": "/braves/"
+    },
         "press": {
             "link-text-alt": "Llegeix aquest article sobre El Tiet",
             "title": "Parlen de nosaltres"

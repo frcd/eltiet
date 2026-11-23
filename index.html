@@ -101,6 +101,7 @@
 }
   </script>
 
+  <meta property="og:image" content="https://eltiettaverteca.com/assets/img/plats/braves-el-tiet-barcelona.jpg" />
   <meta name="google-site-verification" content="gddnuttRzDVqe2bInYJK5n8-yxluAbYVIAuoxN46qBA" />
 
   <script defer src="https://kit.fontawesome.com/6b6c40cd1a.js" crossorigin="anonymous"></script>
@@ -518,6 +519,22 @@
         font-size: 1.6em;
       }
     }
+    #plats .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: .5em
+    }
+
+    #plats .gallery img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 4px
+    }
+
+    #plats .more {
+      margin-top: 1em
+    }
   </style>
 
 </head>
@@ -548,12 +565,9 @@
           <div class="text">
             <h1 data-t>page.welcome</h1>
             <p data-t>page.welcome-sub</p>
-            <p class="reviews">4,5 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-              <a aria-label-t="page.reviews-alt-text" target="_blank" rel="noopener" class="discreet"
-                href="https://g.co/kgs/s7Y23S" data-attr-t>728 <span data-t>page.reviews</span> <i
-                  class="fas fa-external-link-alt"></i></a>
-            </p>
+            <p class="reviews"><a aria-label-t="page.reviews-alt-text" target="_blank" rel="noopener" class="discreet"
+                href="https://g.co/kgs/s7Y23S" data-attr-t><i class="fas fa-star"></i> <span data-t>page.reviews-google</span> <i
+                  class="fas fa-external-link-alt"></i></a></p>
           </div>
         </div>
 
@@ -868,6 +882,21 @@
       </div>
 
 
+    </section>
+
+    <section id="plats">
+      <h2><i class="fas fa-camera"></i> <span data-t>sections.photos.title</span></h2>
+      <div class="gallery">
+        <img loading="lazy" src="/assets/img/plats/braves-el-tiet-barcelona.jpg" alt-t="sections.photos.braves" data-attr-t>
+        <img loading="lazy" src="/assets/img/plats/risotto-gamba-vermella-el-tiet.jpg" alt-t="sections.photos.risotto" data-attr-t>
+        <img loading="lazy" src="/assets/img/plats/rubia-gallega-graella-el-tiet.jpg" alt-t="sections.photos.rubia" data-attr-t>
+        <img loading="lazy" src="/assets/img/plats/suquet-de-peix-el-tiet.jpg" alt-t="sections.photos.suquet" data-attr-t>
+        <img loading="lazy" src="/assets/img/plats/croquetes-casolanes-el-tiet.jpg" alt-t="sections.photos.croquetes" data-attr-t>
+        <img loading="lazy" src="/assets/img/plats/burrata-pernil-iberic-el-tiet.jpg" alt-t="sections.photos.burrata" data-attr-t>
+        <img loading="lazy" src="/assets/img/plats/steak-tartar-el-tiet.jpg" alt-t="sections.photos.tartar" data-attr-t>
+        <img loading="lazy" src="/assets/img/plats/sala-restaurant-el-tiet-eixample.jpg" alt-t="sections.photos.sala" data-attr-t>
+      </div>
+      <p class="more"><a href-t="sections.more.dia-url" data-attr-t data-t>sections.more.dia</a> · <a href-t="sections.more.grups-url" data-attr-t data-t>sections.more.grups</a> · <a href-t="sections.more.braves-url" data-attr-t data-t>sections.more.braves</a></p>
     </section>
 
     <section id="story">
