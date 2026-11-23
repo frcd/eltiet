@@ -546,7 +546,7 @@
       <div id="lang" id="top" data-t>page.lang-links</div>
       <nav>
         <a href="#top" class="active" aria-label-t="nav.top.text-alt" data-attr-t><i class="fas fa-home"></i></a>
-        <a href="#reserve" aria-label-t="nav.reserve.text-alt" data-t data-attr-t>nav.reserve.text-link</a>
+        <a data-goatcounter-click="nav-reserve" href="#reserve" aria-label-t="nav.reserve.text-alt" data-t data-attr-t>nav.reserve.text-link</a>
         <a href="#menu" aria-label-t="nav.menu.text-alt" data-t data-attr-t>nav.menu.text-link</a>
         <a href="#story" aria-label-t="nav.story.text-alt" data-t data-attr-t>nav.story.text-link</a>
         <a href="#social" aria-label-t="nav.social.text-alt" data-t data-attr-t>nav.social.text-link</a>
@@ -565,7 +565,7 @@
           <div class="text">
             <h1 data-t>page.welcome</h1>
             <p data-t>page.welcome-sub</p>
-            <p class="reviews"><a aria-label-t="page.reviews-alt-text" target="_blank" rel="noopener" class="discreet"
+            <p class="reviews"><a data-goatcounter-click="google-reviews" aria-label-t="page.reviews-alt-text" target="_blank" rel="noopener" class="discreet"
                 href="https://g.co/kgs/s7Y23S" data-attr-t><i class="fas fa-star"></i> <span data-t>page.reviews-google</span> <i
                   class="fas fa-external-link-alt"></i></a></p>
           </div>
@@ -582,11 +582,11 @@
           <span class="address-line">08037 <span data-t>page.city</span></span>
 
           <br />
-          <a aria-label-t="page.call-alt-text" class="button whatsapp" target="_blank" rel="noopener"
+          <a data-goatcounter-click="whatsapp" aria-label-t="page.call-alt-text" class="button whatsapp" target="_blank" rel="noopener"
             href="https://wa.me/34931410583" data-attr-t>Whatsapp</a>
 
-          <a aria-label-t="page.call-alt-text" class="button call" href="tel:+34931410583" data-attr-t>931 41 05
-            83</a> <a aria-label-t="page.email-alt-text" class="button mail" target="_blank" rel="noopener"
+          <a data-goatcounter-click="call" aria-label-t="page.call-alt-text" class="button call" href="tel:+34931410583" data-attr-t>931 41 05
+            83</a> <a data-goatcounter-click="email" aria-label-t="page.email-alt-text" class="button mail" target="_blank" rel="noopener"
             href="mailto:info@eltiettaverteca.com" data-attr-t>info@eltiettaverteca.com</a>
           <br />
         </coords>
@@ -617,8 +617,8 @@
     <section id="menu">
       <h2><i class="fas fa-utensils"></i> <span data-t>menu.title</span></h2>
       <!-- <i><span data-t>menu.text</span>
-        <br /> <a aria-label-t="menu.call-text-alt" target="_blank" rel="noopener nofollow" class="discreet u"
-          href="tel:+34931410583" data-attr-t data-t>menu.callus</a> <span data-t>menu.text2</span> <a
+        <br /> <a data-goatcounter-click="call" aria-label-t="menu.call-text-alt" target="_blank" rel="noopener nofollow" class="discreet u"
+          href="tel:+34931410583" data-attr-t data-t>menu.callus</a> <span data-t>menu.text2</span> <a data-goatcounter-click="instagram"
           aria-label-t="menu.ig-text-alt" target="_blank" rel="noopener nofollow" class="discreet u"
           href="https://www.instagram.com/eltietbcn/" data-attr-t>Instagram</a>.)</i> -->
 
@@ -956,7 +956,7 @@
     <section id="social">
       <h2 data-t>sections.social.title</h2>
       <p data-t>sections.social.text</p>
-      <a aria-label-t="sections.social.IGbutton-text-alt" target="_blank" rel="noopener nofollow"
+      <a data-goatcounter-click="instagram" aria-label-t="sections.social.IGbutton-text-alt" target="_blank" rel="noopener nofollow"
         href="https://www.instagram.com/eltietbcn/" class="button" data-attr-t> <i class="fab fa-instagram"></i>
         eltietbcn</a>
       <a aria-label-t="sections.social.FBbutton-text-alt" target="_blank" rel="noopener nofollow"
@@ -967,11 +967,24 @@
     <section id="theend" data-t>sections.theend.text</section>
 
     <div id="float-whatsapp">
-      <a aria-label-t="page.call-alt-text" class="button whatsapp" target="_blank" rel="noopener"
+      <a data-goatcounter-click="whatsapp" aria-label-t="page.call-alt-text" class="button whatsapp" target="_blank" rel="noopener"
         href="https://wa.me/34931410583" data-attr-t></a>
     </div>
   </div>
 
+  <!-- GoatCounter: visits, sources and clicks, no cookies, ~3.5 KB. Read by El Tiet's tracker through its API. -->
+  <script data-goatcounter="https://eltiet.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script>
+    // the booking form is TheFork's iframe, invisible to us: count each visit that scrolls it into view
+    window.addEventListener('load', function () {
+      var el = document.getElementById('reserve'); if (!el || !('IntersectionObserver' in window)) return;
+      var io = new IntersectionObserver(function (es) {
+        if (es[0].isIntersecting && window.goatcounter && window.goatcounter.count) {
+          window.goatcounter.count({ path: 'reserve-form-seen', title: 'Booking form seen', event: true }); io.disconnect();
+        }
+      }, { threshold: 0.4 }); io.observe(el);
+    });
+  </script>
 </body>
 <script>
   'use strict';
